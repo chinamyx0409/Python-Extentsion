@@ -1,0 +1,64 @@
+
+Steps to connect
+1.From the JRE website, instal JRE
+2.From teh NVM Website, Install NVM
+3.on vscode, select install extension: IBM DB2 
+4.on the output, from dropdownlist select db2connect
+4.on the vscode terminal, Install different version of Node JS, NPM, using NVM in JRE
+version 14 Node JS most compatible
+NVM LIST
+NVM INSTALL X.X.X
+NVM USE X.X.X
+**Note that you may need to wait a day for the connection to establish, this is based on experience :<
+5.on vscode, command pallete, ctrl + shift + p, dropdownlist select DB2: Manage Connection Profile
+6.fill up the variables according to the IBM generated values (https://cloud.ibm.com/services/dashdb-for-transactions/crn%3Av1%3Abluemix%3Apublic%3Adashdb-for-transactions%3Aus-south%3Aa%2F2022c1395c3f4eca974db0046ccfdeef%3Abc17eeb5-16f2-4aba-9c42-193e6dc181b9%3A%3A?paneId=credentials) [service credentials] 
+NOTE: Please use copy paste
+
+References:
+
+https://tamalweb.com/which-nodejs-version
+
+which js node version to use?
+in vs code, on the top panel, click 'help' and select 'about'. that is the recommended version of js node.
+
+
+Install multiple Node versions?
+Use NVM Node Version Manager app to install and use multiple versions of the Node JS runtime environment. NVM  allows to switch between Node versions on the fly in your local development machine.
+
+
+use nvm to install multiple version of js node, running on JRE.
+Guide
+https://tamalweb.com/which-nodejs-version
+
+Installer
+https://github.com/coreybutler/nvm-windows/releases
+
+nvm install x.x.xnvm 
+
+check  the list of installed nvm version
+nvm list
+
+choose version to isntall
+https://nodejs.org/en/ 
+
+
+how to select the nvm version
+nvm use x.x.x
+
+check  the list of installed nvm version
+nvm list
+
+
+check js node version
+node -v
+
+check npm version
+npm -v
+
+
+Error in rebuild native npm-module of IBM vs code extesion for fabric
+https://stackoverflow.com/questions/60665812/error-in-rebuild-native-npm-module-of-ibm-vs-code-extesion-for-fabric
+
+
+downgrade vs code to v1.39
+https://code.visualstudio.com/updates/v1_53nvm
